@@ -24,6 +24,12 @@ function App() {
             </p>
           </div>
           <div className="my-10">
+            <a
+              href="https://github.com/Appigle/FE-25W-PROG8840-GROUP-PROJECT"
+              className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-offset-2"
+            >
+              Give us a star!
+            </a>
             <div
               aria-hidden="true"
               className="pointer-events-none mt-10 md:mt-0 lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"

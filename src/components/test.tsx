@@ -8,20 +8,20 @@ describe('<App />', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /Welcome!/i,
+        name: /Welcome Folks!/i,
         level: 1
       })
     ).toBeInTheDocument()
 
     expect(
       screen.getByText(
-        /This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier./i
+        /This is 25W Code Coverage and Quality Control group project./i
       )
     ).toBeInTheDocument()
 
     expect(
       screen.getByRole('link', {
-        name: /start building for free/i
+        name: /Give us a star!/i
       })
     ).toBeInTheDocument()
 

@@ -22,41 +22,41 @@ This project uses many tools like:
 Install dependencies.
 
 ```bash
-pnpm install
+npm install
 ```
 
 Serve with hot reload at <http://localhost:5173>.
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 ### Lint
 
 ```bash
-pnpm run lint
+npm run lint
 ```
 
 ### Typecheck
 
 ```bash
-pnpm run typecheck
+npm run typecheck
 ```
 
 ### Build
 
 ```bash
-pnpm run build
+npm run build
 ```
 
 ### Test
 
 ```bash
-pnpm run test
+npm run test
 ```
 
 View and interact with your tests via UI.
 
 ```bash
-pnpm run test:ui
+npm run test:ui
 ```
